@@ -17,16 +17,18 @@ include_once("../../assets/static_pages/khr_page_top.php");
      <a href="specs/1.0/nnef-1.0.html">HTML</a> (2017-12-18). </li>
 </ul>
 
-<h6> Providing Feedback on the Registry </h6>
+<h2> <a name="feedback"></a> Providing Feedback on the Registry and Specification </h2>
 
-<p> Khronos welcomes comments and issue reports. To provide feedback on the
-    NNEF registry itself (such as reporting missing content, bad links,
-    etc.), file an issue in the <a
+<p> Khronos welcomes comments and issue reports. </p>
+
+<p> To provide feedback <strong>on the NNEF Specification</strong>, file an
+    issue in the <a href="https://github.com/KhronosGroup/NNEF-Docs/issues">
+    NNEF-Docs </a> Github project. </p>
+
+<p> To provide feedback <strong>on the NNEF registry itself</strong> (such
+    as reporting missing content, bad links, etc.), file an issue in the <a
     href="https://github.com/KhronosGroup/NNEF-Registry/issues">
     NNEF-Registry </a> Github project. </p>
-
-<p> For the NNEF specification, we will soon create a separate Github
-    repository for filing specification issues. </p>
 
 <?php include_once("../../assets/static_pages/khr_page_bottom.php"); ?>
 </body>
