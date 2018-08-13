@@ -12,9 +12,9 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <p> The current version of NNEF is NNEF 1.0 Provisional. </p>
 
 <ul>
-<li> NNEF 1.0 Provisional Specification in
+<li> NNEF 1.0 Specification in
      <a href="specs/1.0/nnef-1.0.pdf">PDF</a> and
-     <a href="specs/1.0/nnef-1.0.html">HTML</a> (2017-12-18). </li>
+     <a href="specs/1.0/nnef-1.0.html">HTML</a> (2018-06-13). </li>
 </ul>
 
 <h2> <a name="feedback"></a> Providing Feedback on the Registry and Specification </h2>
