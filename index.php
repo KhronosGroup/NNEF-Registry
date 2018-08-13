@@ -9,7 +9,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <h2> <a name="specs"></a> <b>NNEF Specification</b> </h2>
 
-<p> The current version of NNEF is NNEF 1.0 Provisional. </p>
+<p> The current version of NNEF is NNEF 1.0. </p>
 
 <ul>
 <li> NNEF 1.0 Specification in
