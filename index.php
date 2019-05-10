@@ -14,7 +14,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <ul>
 <li> NNEF 1.0.1 Specification in
      <a href="specs/1.0/nnef-1.0.1.pdf">PDF</a> and
-     <a href="specs/1.0/nnef-1.0.1.html">HTML</a> (2019-03-28). </li>
+     <a href="specs/1.0/nnef-1.0.1.html">HTML</a> (2019-05-10). </li>
 </ul>
 
 <p> Previous versions of NNEF: </p>
