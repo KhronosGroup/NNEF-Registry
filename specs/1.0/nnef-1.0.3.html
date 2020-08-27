@@ -443,8 +443,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Neural Network Exchange Format</h1>
 <div class="details">
 <span id="author" class="author">The Khronos NNEF Working Group</span><br>
-<span id="revnumber">version 1.0.3, Revision 1,</span>
-<span id="revdate">2020-06-12</span>
+<span id="revnumber">version 1.0.3, Revision 2,</span>
+<span id="revdate">2020-08-27</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -4238,7 +4238,13 @@ fragment unstack&lt;?&gt;( value: tensor&lt;?&gt;, axis: integer ) -&gt; ( value
 <p>After executing all operations in the current graph cycle, the content of <code>variable</code> is replaced with the content of <code>value</code>. The variable itself always refers to the original value at the beginning of the cycle. The new value can be referenced via <code>result</code>. However, <code>result</code> is not a variable tensor, so it cannot be updated again. Thus, each variable can only be updated once in a cycle.</p>
 </div>
 <div class="paragraph">
-<p>Note, that the computational graph that describes a single computation cycle in a potentially recurrent computation is itself acyclic.</p>
+<p>Note, that the computational graph that describes a single computation cycle in a potentially recurrent computation is itself acyclic, even if variables cross-reference each other. For example, two variables <code>x</code> and <code>y</code> can be swapped as</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>new_x = update(x, y);     // new_x will equal (old) y
+new_y = update(y, x);     // new_y will equal (old) x</code></pre>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -5487,8 +5493,8 @@ Members of the Working Group, including the company that they represented at the
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.3, Revision 1<br>
-Last updated 2020-06-15 08:41:04 UTC
+Version 1.0.3, Revision 2<br>
+Last updated 2020-08-27 14:25:53 UTC
 </div>
 </div>
 <script type="text/x-mathjax-config">
