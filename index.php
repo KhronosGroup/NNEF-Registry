@@ -49,6 +49,12 @@ include_once("../../assets/static_pages/khr_page_top.php");
      <a href="specs/1.0/nnef-1.0.html">HTML</a> (2018-06-13). </li>
 </ul>
 
+<h3> <b>Development of the next version of NNEF</b> </h3>
+
+<p> NNEF version 2.0 is being developed openly in order to solicit public feedback. 
+    The latest revisions can be viewed and issues can be reported in the 
+    <a href="https://github.com/KhronosGroup/NNEF-Docs"> NNEF-Docs </a> Github project. </p>
+
 <h2> <a name="feedback"></a> Providing Feedback on the Registry and Specification </h2>
 
 <p> Khronos welcomes comments and issue reports. </p>
